@@ -58,7 +58,8 @@ section#img1>p{
     color: white;
     background-color: rgba(0, 0, 0, 0.356);
     width: 400px;
-    padding-left: 30px;   
+    padding-left: 30px;  
+    padding: 5px; 
     font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
     display: inline-block;
@@ -75,6 +76,7 @@ section#img2>p{
     background-color: rgba(0, 0, 0, 0.493);
     width: 400px;
     padding-left: 30px; 
+    padding: 5px;
     font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
     display: inline-block;
