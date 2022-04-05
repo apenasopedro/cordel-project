@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 @font-face {
     font-family: 'sina' ;
     src: url('../fontes/sinamidemo.ttf') format('truetype');
@@ -45,41 +47,33 @@ section {
 }
 section p{
     
-    font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
 
 }
-section#img1{
-    
-    background: black url('../imagens/backgroudn01.jpg') center top fixed;
-    background-size: cover;       
-}
-section#img1>p{
+section.imagem{
     color: white;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: black;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+         
+}
+section.imagem>p{
     width: 400px;
-    padding-left: 30px;  
+    padding-left: 30px;   
     padding: 5px; 
     font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
     display: inline-block;
+    background-color: rgba(0, 0, 0, 0.356);
 }
-
-section#img2{
-    background: black url('../imagens/backgroudn02.jpg') center top fixed;
-    background-size: cover;
+section.imagem#img1{
     
-      
-}
-section#img2>p{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.493);
-    width: 400px;
-    padding-left: 30px; 
-    padding: 5px;
-    font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3em;
-    display: inline-block;
+    background-image: url('../imagens/backgroudn01.jpg');
+}  
+section.imagem#img2{
+    background-image: url('../imagens/backgroudn02.jpg');
 }
 footer{
     background-color: black;
